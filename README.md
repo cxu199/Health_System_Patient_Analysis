@@ -1,145 +1,176 @@
-# Health_System_Patient_Analysis
+# 🏥 Healthcare Waiting List Analysis Dashboard
 
-A multi-page Power BI dashboard analysing inpatient, outpatient, and day-case waiting lists (2018–2021), designed to identify backlog trends, concentration, and high-risk areas.
+![Portfolio](https://img.shields.io/badge/Project-Portfolio-important)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi)
+![DAX](https://img.shields.io/badge/DAX-Advanced-blue)
+![SQL](https://img.shields.io/badge/SQL-Analytics-lightgrey?logo=postgresql)
+![Python](https://img.shields.io/badge/Python-Data%20Prep-blue?logo=python)
+![Domain](https://img.shields.io/badge/Domain-Healthcare-red)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-The dashboard combines trend analysis, distribution metrics (Median & P90), and segmentation logic to support data-driven decision-making.
+A multi-page Power BI dashboard analysing inpatient, outpatient, and day-case waiting lists (2018–2021)...
 
-📌 Dashboard Overview
+---
 
-This project includes 5 key pages, each serving a distinct analytical purpose:
+# 📌 Dashboard Overview
 
-🥇 1. Summary Page
-🎯 Purpose
+This project includes **5 key pages**, each serving a distinct analytical purpose.
 
+---
+
+## 🥇 Summary Page
+
+### 🎯 Purpose
 Provide a high-level overview of waiting list performance and key drivers.
 
-📊 Key Elements
-Latest Month Wait List vs Previous Year
-Case Type Distribution (Inpatient / Outpatient / Day Case)
-Time Band vs Age Profile analysis
-Top 5 specialties by waiting list
-Monthly trend analysis
-🧠 Key Insight
+### 📊 Key Elements
+- Latest Month Wait List vs Previous Year  
+- Case Type Distribution (Inpatient / Outpatient / Day Case)  
+- Time Band vs Age Profile analysis  
+- Top 5 specialties by waiting list  
+- Monthly trend analysis  
 
-Waiting list growth is primarily driven by outpatient demand, with long-wait patients (18+ months) contributing significantly to overall backlog pressure.
+### 🧠 Key Insight
+Waiting list growth is primarily driven by outpatient demand, with long-wait patients (18+ months) contributing significantly to backlog pressure.
 
-🥈 2. Executive Page (Long Wait Focus)
-🎯 Purpose
+---
 
+## 🥈 Executive Page (Long Wait Focus)
+
+### 🎯 Purpose
 Highlight critical backlog risk (18+ months) and support executive decision-making.
 
-📊 Key KPIs
-YoY Growth %
-Long Wait YoY %
-Long Wait %
-P90 Long Wait List
-Median Long Wait List
+### 📊 Key KPIs
+- YoY Growth %  
+- Long Wait YoY %  
+- Long Wait %  
+- P90 Long Wait List  
+- Median Long Wait List  
 
-📈 Key Visuals
-Treemap → Top 10 specialties driving backlog
-Scatter Plot → Risk segmentation (Median vs P90)
-Case Type breakdown
-Age profile analysis
-🧠 Executive Insight
+### 📈 Key Visuals
+- Treemap → Top 10 specialties driving backlog  
+- Scatter Plot → Risk segmentation (Median vs P90)  
+- Case Type breakdown  
+- Age profile analysis  
 
+### 🧠 Executive Insight
 Backlog is concentrated in long-wait patients and a small number of specialties (e.g. ENT), indicating targeted bottlenecks rather than system-wide pressure.
 
-🥉 3. Detailed Page
-🎯 Purpose
+---
 
+## 🥉 Detailed Page
+
+### 🎯 Purpose
 Enable drill-down analysis of waiting list trends.
 
-📊 Features
-Full monthly breakdown (Day Case, Inpatient, Outpatient)
-Interactive filters:
-Date
-Case Type
-Specialty
-Age Profile
-Time Bands
-🧠 Use Case
+### 📊 Features
+- Full monthly breakdown (Day Case, Inpatient, Outpatient)  
+- Interactive filters:
+  - Date  
+  - Case Type  
+  - Specialty  
+  - Age Profile  
+  - Time Bands  
 
-Supports data validation and deep-dive investigation beyond executive summaries.
+### 🧠 Use Case
+Supports detailed investigation and validation beyond the executive view.
 
-🧩 4. KPIs Explained Page
-🎯 Purpose
+---
 
-Provide clear definitions and business context for all key metrics.
+## 🧩 KPIs Explained Page
 
-📌 Metrics Covered
-YoY Growth % → Demand trend
-Long Wait % → Backlog severity
-Median → Typical backlog level
-P90 → Extreme backlog pressure
-🧠 Key Concept
+### 🎯 Purpose
+Provide clear definitions and business context for key metrics.
 
-Combining Median and P90 reveals whether backlog is evenly distributed or concentrated in a small number of specialties.
+### 📌 Metrics Covered
+- YoY Growth % → Demand trend  
+- Long Wait % → Backlog severity  
+- Median → Typical performance  
+- P90 → Extreme pressure  
 
-🧾 5. Long Wait Detailed Page
-🎯 Purpose
+### 🧠 Key Concept
+Combining Median and P90 reveals whether backlog is evenly distributed or concentrated.
 
+---
+
+## 🧾 Long Wait Detailed Page
+
+### 🎯 Purpose
 Provide a granular view of long-wait (18+ months) performance by specialty.
 
-📊 Key Fields
-YoY Growth %
-Long Wait %
-P90 Long Wait List
-Median Long Wait List
-Latest Month Long Wait Patients
-🧠 Insight
+### 📊 Key Fields
+- YoY Growth %  
+- Long Wait %  
+- P90 Long Wait List  
+- Median Long Wait List  
+- Latest Month Long Wait Patients  
 
-Enables identification of both high-volume backlog and high-risk specialties for targeted intervention.
+### 🧠 Insight
+Helps identify both high-volume backlog and high-risk specialties for targeted intervention.
 
-💡 Tooltip (Summary Page)
-🎯 Purpose
+---
 
-Enhance usability by providing on-hover explanations for key visuals.
+## 💡 Tooltip (Summary Page)
 
-📊 Content
-KPI definitions
-Interpretation guidance
-Business relevance
-🧠 Benefit
+### 🎯 Purpose
+Enhance usability with on-hover explanations.
 
-Improves dashboard clarity without adding visual clutter.
+### 📊 Content
+- KPI definitions  
+- Interpretation guidance  
+- Business meaning  
 
-📊 Key Analytical Concepts
-Median (50th percentile) → Typical performance
-P90 (90th percentile) → Extreme pressure
-Long Wait % → Backlog risk indicator
-Segmentation (Scatter Plot) → Identifies:
-Critical bottlenecks
-Emerging risks
-Capacity-driven backlog
+### 🧠 Benefit
+Improves clarity without adding visual clutter.
 
-📌 Key Insights
-Backlog is not evenly distributed across specialties
-Long-wait patients (18+ months) drive system pressure
-A small number of specialties (e.g. ENT) contribute disproportionately
-Most specialties remain stable, confirming targeted rather than systemic issues
+---
 
-🎯 Business Recommendations
-Prioritise 18+ month backlog clearance
-Focus on top 10% specialties (P90 group)
-Expand outpatient capacity in high-demand areas
-Monitor Long Wait % and P90 to prevent re-accumulation
+# 📊 Key Analytical Concepts
 
-🛠️ Tools & Skills
-Power BI — Dashboard design, DAX, data modelling
-DAX — Time intelligence, percentile analysis, KPI logic
-Data Modelling — Star schema
-Analytics — Distribution analysis, segmentation, business insights
+- **Median (50th percentile)** → Typical performance  
+- **P90 (90th percentile)** → Extreme pressure  
+- **Long Wait %** → Backlog risk indicator  
+- **Segmentation (Scatter Plot)** → Risk classification  
 
-⭐ Why This Project Stands Out
+---
 
-This project demonstrates:
+# 📌 Key Insights
 
-Moving beyond averages to distribution-aware analytics
-Using P90 and Median together to uncover hidden backlog risk
-Translating data into actionable business strategy
-Designing dashboards for executive decision-making
+- Backlog is not evenly distributed across specialties  
+- Long-wait patients (18+ months) drive system pressure  
+- A small number of specialties (e.g. ENT) contribute disproportionately  
+- Most specialties remain stable  
 
-👤 Author
+---
 
-Cong Xu
+# 🎯 Business Recommendations
+
+- Prioritise 18+ month backlog clearance  
+- Focus on top 10% specialties (P90 group)  
+- Expand outpatient capacity  
+- Monitor Long Wait % and P90  
+
+---
+
+# 🛠️ Tools & Skills
+
+- Power BI (DAX, dashboard design)  
+- Data Modelling (star schema)  
+- Analytics (distribution, segmentation)  
+- SQL / Python (data preparation)
+
+---
+
+# ⭐ Why This Project Stands Out
+
+- Uses Median + P90 to uncover backlog concentration  
+- Moves beyond reporting to decision-making  
+- Applies segmentation logic for prioritisation  
+- Designed for executive usability  
+
+---
+
+# 👤 Author
+
+Cong Xu  
 Data Analyst | Power BI | SQL | Python
