@@ -19,7 +19,7 @@ This project includes **5 key pages**, each serving a distinct analytical purpos
 ---
 
 ## 🥇 Summary Page
-
+![image alt](https://github.com/cxu199/Health_System_Patient_Analysis/blob/9791db8d4a5529d5d76936516b6c2d9fecdbbde0/images/Waiting%20Patients%20Analysis%20-%20Summary.PNG)
 ### 🎯 Purpose
 Provide a high-level overview of waiting list performance and key drivers.
 
@@ -36,7 +36,7 @@ Waiting list growth is primarily driven by outpatient demand, with long-wait pat
 ---
 
 ## 🥈 Executive Page (Long Wait Focus)
-
+![image alt](https://github.com/cxu199/Health_System_Patient_Analysis/blob/9791db8d4a5529d5d76936516b6c2d9fecdbbde0/images/Executive.PNG)
 ### 🎯 Purpose
 Highlight critical backlog risk (18+ months) and support executive decision-making.
 
@@ -59,7 +59,7 @@ Backlog is concentrated in long-wait patients and a small number of specialties 
 ---
 
 ## 🥉 Detailed Page
-
+![image alt](https://github.com/cxu199/Health_System_Patient_Analysis/blob/9791db8d4a5529d5d76936516b6c2d9fecdbbde0/images/Waiting%20Patients%20Analysis%20-%20Detail.PNG)
 ### 🎯 Purpose
 Enable drill-down analysis of waiting list trends.
 
@@ -78,7 +78,7 @@ Supports detailed investigation and validation beyond the executive view.
 ---
 
 ## 🧩 KPIs Explained Page
-
+![image alt](https://github.com/cxu199/Health_System_Patient_Analysis/blob/9791db8d4a5529d5d76936516b6c2d9fecdbbde0/images/KPIs%20Explained.PNG)
 ### 🎯 Purpose
 Provide clear definitions and business context for key metrics.
 
@@ -94,7 +94,7 @@ Combining Median and P90 reveals whether backlog is evenly distributed or concen
 ---
 
 ## 🧾 Long Wait Detailed Page
-
+![image alt](https://github.com/cxu199/Health_System_Patient_Analysis/blob/9791db8d4a5529d5d76936516b6c2d9fecdbbde0/images/Long%20WL%20Detailed%20View.PNG)
 ### 🎯 Purpose
 Provide a granular view of long-wait (18+ months) performance by specialty.
 
@@ -111,7 +111,7 @@ Helps identify both high-volume backlog and high-risk specialties for targeted i
 ---
 
 ## 💡 Tooltip (Summary Page)
-
+![image alt](https://github.com/cxu199/Health_System_Patient_Analysis/blob/9791db8d4a5529d5d76936516b6c2d9fecdbbde0/images/Drilldown%20tooltip%20for%20Summary%20page%20line%20chart.PNG)
 ### 🎯 Purpose
 Enhance usability with on-hover explanations.
 
